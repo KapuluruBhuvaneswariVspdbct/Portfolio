@@ -1,0 +1,66 @@
+#myname{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+   
+    color:rgb(249, 249, 249);
+    font-size:42px;
+}
+html{
+   background-color:rgb(33, 33, 33) ; 
+}
+#myimg{
+    border-bottom: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px ;
+    border-color:black;
+    border-style: ridge;
+  }
+#education1{
+    color:rgb(203, 203, 203);
+    background-color:rgb(81, 81, 81);
+    font-size: 5px;
+}
+.edu{
+    width:300px;
+    font-size:20px;
+    color:rgb(249, 130, 74);
+}
+#edu{
+  
+    color:rgb(0, 129, 129);
+}
+.containerm{
+    background-color: aliceblue;
+    display: inline-flex;
+}
+.item-0{
+    color: rgb(35, 218, 187);
+    font-size: 35px;
+}
+
+
+.p-3{
+    color:aliceblue;
+}
+.image-container {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    animation: rotateImage 5s linear infinite; /* Adjust duration and animation type */
+}
+
+@keyframes rotateImage {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
